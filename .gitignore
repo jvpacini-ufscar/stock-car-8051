@@ -1,0 +1,47 @@
+# Keil uVision Files
+*.uvgui.*
+*.uvopt
+*.uvproj.bak
+Objects/
+Listings/
+*.map
+*.hex
+*.lnp
+*.lst
+*.obj
+*.crf
+*.tra
+*.dep
+*.d
+*.o
+*.axf
+*.sct
+*.htm
+
+# Proteus Files
+*.pdsprj.bak
+*.pdsbak
+*.workspace
+Last Loaded*
+
+# System Files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+*.log
+
+# IDE Files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Documentation
+*.aux
+*.log
+*.toc
+*.out
+*.fdb_latexmk
+*.fls
+*.synctex.gz
