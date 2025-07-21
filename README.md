@@ -1,15 +1,6 @@
 🏎️ Stock Car Game for 8051 Microcontroller
 Um jogo clássico de corrida implementado em C para microcontrolador AT89C52 com display GLCD 128x64
 
-
-License: MITLicense: MIT](https://opensource.org/licenses/MIT
-
-Platform
-
-DisplayDisplay](https://en.wikipedia.org/wiki/Graphics_display
-
-Gameplay Screenshot
-
 📋 Sobre o Projeto
 Este projeto implementa um jogo completo de Stock Car em linguagem C para o microcontrolador AT89C52 (família 8051), utilizando um display LCD gráfico de 128x64 pixels com controlador KS0108. O jogo demonstra conceitos avançados de programação em sistemas embarcados, incluindo:
 
