@@ -1,64 +1,63 @@
-🏎️ Stock Car Game for 8051 Microcontroller
+🏎️ Stock Car Game for 8051 Microcontroller <br>
 Um jogo clássico de corrida implementado em C para microcontrolador AT89C52 com display GLCD 128x64
 
-📋 Sobre o Projeto
+📋 Sobre o Projeto <br>
 Este projeto implementa um jogo completo de Stock Car em linguagem C para o microcontrolador AT89C52 (família 8051), utilizando um display LCD gráfico de 128x64 pixels com controlador KS0108. O jogo demonstra conceitos avançados de programação em sistemas embarcados, incluindo:
 
-🎮 Interface gráfica responsiva
-🚗 Sistema de sprites bitmap otimizado
-💥 Detecção de colisão em tempo real
-🏆 Sistema de pontuação dinâmico
-🛣️ Geração procedural de pistas
-✨ Características
-Controles intuitivos: 3 botões (esquerda, direita, turbo)
-Pista dinâmica: Curvas geradas algoritmicamente
-Inimigos inteligentes: Spawn aleatório com padrões variados
-Sistema de score: Pontuação baseada em tempo de sobrevivência
-Tela de Game Over: Interface profissional com reinício
-Otimização extrema: Código otimizado para 2KB de memória
-🛠️ Materiais Necessários
-Hardware
-Microcontrolador AT89C52 ou compatível 8051
-Display GLCD 128x64 com controlador KS0108/KS0107
-3 botões push-button
-Cristal oscilador 11.0592 MHz
-Resistores de pull-up (10kΩ)
-Potenciômetro para contraste (10kΩ)
-Capacitores de desacoplamento
-Software
-Keil uVision C51 - IDE e compilador
-Proteus ISIS - Simulação de circuito
-Git para controle de versão
-🚀 Como Usar
-1. Clone o Repositório
-git clone https://github.com/seu-usuario/stock-car-8051.git
+🎮 Interface gráfica responsiva <br>
+🚗 Sistema de sprites bitmap otimizado <br>
+💥 Detecção de colisão em tempo real <br>
+🏆 Sistema de pontuação dinâmico <br>
+🛣️ Geração procedural de pistas <br>
+✨ Características <br>
+Controles intuitivos: 2 botões (esquerda, direita) <br>
+Pista dinâmica: Curvas geradas algoritmicamente <br>
+Inimigos inteligentes: Spawn aleatório com padrões variados <br>
+Sistema de score: Pontuação baseada em tempo de sobrevivência <br>
+Tela de Game Over: Interface profissional com reinício <br>
+Otimização extrema: Código otimizado para 2KB de memória <br>
+🛠️ Materiais Necessários <br>
+Hardware <br>
+Microcontrolador AT89C52 ou compatível 8051 <br>
+Display GLCD 128x64 com controlador KS0108/KS0107 <br>
+2 botões push-button <br>
+Cristal oscilador 11.0592 MHz <br>
+Resistores de pull-up (10kΩ) <br>
+Potenciômetro para contraste (10kΩ) <br>
+Capacitores de desacoplamento <br>
+Software <br>
+Keil uVision C51 - IDE e compilador <br>
+Proteus ISIS - Simulação de circuito <br>
+Git para controle de versão <br>
+🚀 Como Usar <br>
+1. Clone o Repositório <br>
+git clone https://github.com/seu-usuario/stock-car-8051.git 
 cd stock-car-8051
-2. Abrir no Keil uVision
+2. Abrir no Keil uVision <br>
 Abra o Keil uVision
 Carregue o projeto: simulation/keil/stock-car.uvproj
 Compile o projeto (F7)
 Gere o arquivo HEX
-3. Simular no Proteus
+3. Simular no Proteus <br>
 Abra o Proteus ISIS
 Carregue o projeto: simulation/proteus/stock-car.pdsprj
 Carregue o arquivo HEX gerado
 Execute a simulação
-4. Programar o Microcontrolador
+4. Programar o Microcontrolador <br>
 Use um programador compatível com 8051
 Grave o arquivo .hex gerado pelo Keil
-🎮 Como Jogar
-Iniciar: Pressione qualquer botão na tela inicial
-Controles:
-Botão Esquerdo: Move o carro para a esquerda
-Botão Direito: Move o carro para a direita
-Botão Start: Ativa modo turbo (velocidade reduzida)
-Objetivo: Evite colidir com outros carros
-Pontuação: Ganha pontos automaticamente enquanto sobrevive
+🎮 Como Jogar <br>
+Iniciar: Pressione qualquer botão na tela inicial <br>
+Controles:  <br>
+Botão Esquerdo: Move o carro para a esquerda <br>
+Botão Direito: Move o carro para a direita <br>
+Botão Start: Ativa modo turbo (velocidade reduzida) <br>
+Objetivo: Evite colidir com outros carros <br>
+Pontuação: Ganha pontos automaticamente enquanto sobrevive <br>
 
-Game Over: Pressione qualquer botão para reiniciar
-🏗️ Arquitetura do Código
-main.c
-
+Game Over: Pressione qualquer botão para reiniciar <br>
+🏗️ Arquitetura do Código <br>
+main.c <br>
 ├── Sistema de Estados (PLAYING/GAME_OVER) <br>
 ├── Interface GLCD <br>
 │ ├── Inicialização dual-chip <br>
@@ -73,29 +72,30 @@ main.c
 ├── Gerador pseudo-aleatório (LFSR) <br>
 ├── Sprites compactos <br>
 └── Gerenciamento eficiente de memória <br>
-📊 Especificações Técnicas
-Componente		Especificação
-Microcontrolador	AT89C52 (8051 compatible)
-Clock			11.0592 MHz
-Memória RAM		256 bytes internos
-Memória Flash		8KB (2KB usados)
-Display			GLCD 128x64 KS0108
-Resolução de jogo	128x64 pixels
-Sprites			8x8 pixels bitmap
-Fonte			4x6 pixels custom
 
-🔧 Compilação e Otimizações
-O projeto foi otimizado para a versão de avaliação do Keil (limite de 2KB):
+📊 Especificações Técnicas <br>
+Componente		Especificação <br>
+Microcontrolador	AT89C52 (8051 compatible) <br>
+Clock			11.0592 MHz <br>
+Memória RAM		256 bytes internos <br>
+Memória Flash		8KB (2KB usados) <br>
+Display			GLCD 128x64 KS0108 <br>
+Resolução de jogo	128x64 pixels <br>
+Sprites			8x8 pixels bitmap <br>
+Fonte			4x6 pixels custom <br>
 
-Sprites compactos: Redução de 5x7 para 4x6 pixels
-Fonte mínima: Apenas caracteres necessários
-Funções combinadas: Redução de overhead
-Tipos otimizados: Uso inteligente de unsigned char
-Comandos de Compilação
-bash
-Copy
+🔧 Compilação e Otimizações <br>
+O projeto foi otimizado para a versão de avaliação do Keil (limite de 2KB): <br>
 
-# No Keil uVision
+Sprites compactos: Redução de 5x7 para 4x6 pixels <br>
+Fonte mínima: Apenas caracteres necessários <br>
+Funções combinadas: Redução de overhead <br>
+Tipos otimizados: Uso inteligente de unsigned char <br>
+Comandos de Compilação <br>
+bash <br>
+Copy <br>
+
+# No Keil uVision 
 Build Target: F7
 Rebuild All: Ctrl+F7
 📈 Resultados de Performance
@@ -132,24 +132,24 @@ Gameplay
 <img width="1076" height="767" alt="Captura de tela 2025-07-21 193820" src="https://github.com/user-attachments/assets/302ad2c1-ca0b-4506-b9fc-8468a91aea5d" />
 
 
-🏆 Reconhecimentos
-Inspirado nos jogos clássicos de arcade dos anos 80
-Desenvolvido como projeto acadêmico de Sistemas Embarcados
-Agradecimentos à comunidade 8051 e retro-computing
-Agradecimento especial ao Professor Doutor Emerson Carlos Pedrino
+🏆 Reconhecimentos <br>
+Inspirado nos jogos clássicos de arcade dos anos 80 <br>
+Desenvolvido como projeto acadêmico de Sistemas Embarcados <br>
+Agradecimentos à comunidade 8051 e retro-computing <br>
+Agradecimento especial ao Professor Doutor Emerson Carlos Pedrino <br>
 
-📄 Licença
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
+📄 Licença <br>
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes. <br>
 
-👤 Autores
-Professor Doutor Emerson Carlos Pedrino
-Estudante de Engenharia de Computação, UFSCar - João Victor Pacini
-Estudante de Engenharia de Computação, UFSCar - Samuel Said
+👤 Autores <br>
+Professor Doutor Emerson Carlos Pedrino <br>
+Estudante de Engenharia de Computação, UFSCar - João Victor Pacini <br>
+Estudante de Engenharia de Computação, UFSCar - Samuel Said <br>
 
-🌟 Mostre seu Apoio
-Se este projeto te ajudou, deixe uma ⭐ no repositório!
+🌟 Mostre seu Apoio <br>
+Se este projeto te ajudou, deixe uma ⭐ no repositório! <br>
 
-Feito com ❤️ e muito café ☕
+Feito com ❤️ e muito café ☕ <br>
 
 4. LICENSE (MIT)
 MIT License
