@@ -59,20 +59,20 @@ Game Over: Pressione qualquer botão para reiniciar
 🏗️ Arquitetura do Código
 main.c
 
-├── Sistema de Estados (PLAYING/GAME_OVER)
-├── Interface GLCD
-│ ├── Inicialização dual-chip
-│ ├── Renderização de sprites
-│ └── Sistema de fontes bitmap
-├── Lógica do Jogo
-│ ├── Controle do jogador
-│ ├── Gerenciamento de inimigos
-│ ├── Detecção de colisão (AABB)
-│ └── Sistema de pontuação
-└── Otimizações
-├── Gerador pseudo-aleatório (LFSR)
-├── Sprites compactos
-└── Gerenciamento eficiente de memória
+├── Sistema de Estados (PLAYING/GAME_OVER) <br>
+├── Interface GLCD <br>
+│ ├── Inicialização dual-chip <br>
+│ ├── Renderização de sprites <br>
+│ └── Sistema de fontes bitmap <br>
+├── Lógica do Jogo <br>
+│ ├── Controle do jogador <br> 
+│ ├── Gerenciamento de inimigos <br>
+│ ├── Detecção de colisão (AABB) <br>
+│ └── Sistema de pontuação <br>
+└── Otimizações <br>
+├── Gerador pseudo-aleatório (LFSR) <br>
+├── Sprites compactos <br>
+└── Gerenciamento eficiente de memória <br>
 📊 Especificações Técnicas
 Componente		Especificação
 Microcontrolador	AT89C52 (8051 compatible)
