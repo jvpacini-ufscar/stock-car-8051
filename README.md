@@ -114,19 +114,19 @@ Push para a branch (git push origin feature/AmazingFeature)
 
 Abra um Pull Request
 
-💡 Ideias para Contribuições
-[ ] Sistema de diferentes níveis de dificuldade
-[ ] Efeitos sonoros com buzzer
-[ ] High score persistente em EEPROM
-[ ] Física de movimento melhorada
-[ ] Power-ups e bônus especiais
-[ ] Multiplayer local
-[ ] Documentação em inglês
-📝 Documentação
-📄 Relatório Técnico Completo
-🔧 Esquema do Circuito
-📋 Lista de Componentes
-🎯 Guia de Troubleshooting
+💡 Ideias para Contribuições <br>
+[ ] Sistema de diferentes níveis de dificuldade <br>
+[ ] Efeitos sonoros com buzzer <br>
+[ ] High score persistente em EEPROM <br>
+[ ] Física de movimento melhorada <br>
+[ ] Power-ups e bônus especiais <br>
+[ ] Multiplayer local <br>
+[ ] Documentação em inglês <br>
+📝 Documentação <br>
+📄 Relatório Técnico Completo <br>
+🔧 Esquema do Circuito <br>
+📋 Lista de Componentes <br>
+🎯 Guia de Troubleshooting <br>
 
 Gameplay
 <img width="1076" height="767" alt="Captura de tela 2025-07-21 193820" src="https://github.com/user-attachments/assets/302ad2c1-ca0b-4506-b9fc-8468a91aea5d" />
