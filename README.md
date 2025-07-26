@@ -142,7 +142,7 @@ Agradecimento especial ao Professor Doutor Emerson Carlos Pedrino <br>
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes. <br>
 
 👤 Autores <br>
-Este projeto foi desenvolvido como parte da disciplina *Projetos de Sistemas Computacionais Embarcados*, ofertada pelo *Departamento de Computação* da *Universidade Federal de São Carlos* (UFSCar), sob orientação do *Prof. Dr. Emerson Carlos Pedrino*. <br>
+Este projeto foi desenvolvido como parte da disciplina **Projetos de Sistemas Computacionais Embarcados**, ofertada pelo **Departamento de Computação** da **Universidade Federal de São Carlos** (UFSCar), sob orientação do **Prof. Dr. Emerson Carlos Pedrino**. <br>
 Estudante de Engenharia de Computação, UFSCar - João Victor Pacini <br>
 Estudante de Engenharia de Computação, UFSCar - Samuel Said <br>
 
